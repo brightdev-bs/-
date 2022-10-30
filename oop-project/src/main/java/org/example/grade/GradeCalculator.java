@@ -16,9 +16,6 @@ public class GradeCalculator {
     }
 
     public double calculateGrade() {
-        double multiplyCreditAndCourseGrade = courses.multiplyCreditAndCourseGrade();
-        int totalCompledtedGrade = courses.totalCompledtedGrade();
-
-        return multiplyCreditAndCourseGrade / totalCompledtedGrade;
+        return courses.calculatGrade();
     }
 }

@@ -25,4 +25,11 @@ public class Courses {
                 .sum();
     }
 
+    public double calculatGrade() {
+        double multiplyCreditAndCourseGrade = this.multiplyCreditAndCourseGrade();
+        int totalCompledtedGrade = this.totalCompledtedGrade();
+
+        return multiplyCreditAndCourseGrade / totalCompledtedGrade;
+    }
+
 }
